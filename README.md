@@ -76,6 +76,7 @@ sudo gluster volume rebalance gv_rmancc_rep_arb status
 Ensures data is properly distributed across nodes.
 
 🚀 Key Skills Demonstrated
+
 Linux Storage Management (LVM)
 Filesystem Optimization (XFS)
 Distributed Storage (GlusterFS)
@@ -83,6 +84,7 @@ High Availability Design (Replica + Arbiter)
 Production Deployment Workflow
 
 💡 Real-World Use Case
+
 Oracle RMAN backup repository
 Telecom billing system backup (OCS / ZSmart)
 Large-scale archive storage

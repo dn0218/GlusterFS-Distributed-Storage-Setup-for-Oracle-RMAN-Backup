@@ -1,0 +1,1 @@
+# GlusterFS-Distributed-Storage-Setup-for-Oracle-RMAN-Backup

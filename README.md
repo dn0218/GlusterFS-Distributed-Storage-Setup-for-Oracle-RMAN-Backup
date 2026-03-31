@@ -56,6 +56,7 @@ sudo mkdir -p /rmancc1/replica1
 sudo chmod 777 /rmancc1/replica1
 ```
 ⚠️ Note: In production, avoid using 777. Use proper user/group permissions.
+
 5️⃣ Add Bricks to Gluster Volume
 ```bash
 sudo gluster volume add-brick gv_rmancc_rep_arb replica 2 arbiter 1 \
@@ -64,6 +65,7 @@ Ytlcbak02:/rmancc1/replica1 \
 Ytlcbak03:/rmancc1/arbiter1
 ```
 Replica 2 → Data redundancy
+
 Arbiter 1 → Prevent split-brain (stores metadata only)
 
 6️⃣ Rebalance Volume
